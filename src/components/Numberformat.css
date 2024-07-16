@@ -1,0 +1,129 @@
+/* Numberformat.css */
+
+body{ 
+	margin: 0; 
+	padding: 0; 
+} 
+.application{ 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	margin-bottom: 10px; 
+} 
+
+.application h1{ 
+	margin: 5px; 
+} 
+.section{ 
+	background-color: #f0eedc; 
+	border: 1px solid #e0e0e0; 
+	border-radius: 7px; 
+	width: calc(100% - 55px); 
+	max-width: 500px; 
+	padding: 20px; 
+} 
+
+.row{ 
+	margin-bottom: 5px; 
+} 
+.row p{ 
+	margin: 0; 
+	text-align: left; 
+	padding: 5px 7px; 
+} 
+
+.row div{ 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+} 
+.row input{ 
+	width: calc(100% - 33px); 
+	font-size: 1rem; 
+	padding: 6px 10px; 
+	font-weight: 400; 
+	line-height: 1.5; 
+	color: #495057; 
+	outline: none; 
+	background-color: #fff; 
+	background-clip: padding-box; 
+	border: 1px solid #ced4da; 
+	border-radius: 0.25rem; 
+} 
+
+.row:first-child select{ 
+	display: block; 
+	width: calc(100% - 10px); 
+	padding: 9px; 
+	border: 1px solid #ced4da; 
+	border-radius: 0.25em; 
+	margin: 0px 5px; 
+	outline: none; 
+} 
+
+.row:nth-child(2) input{ 
+	width: calc(100% - 135px); 
+} 
+
+.row button{ 
+	font-size: 16px; 
+	outline: none; 
+	border: 1px solid #28a745; 
+	padding: 9px 20px; 
+	border-radius: 4px; 
+	color: #fff; 
+	cursor: pointer; 
+	background-color: #28a745; 
+	transition: background-color .15s ease-in-out; 
+	margin-left: 5px; 
+} 
+
+.row button:hover{ 
+	background-color: #1f953a; 
+} 
+
+.row:nth-child(4) input{ 
+	width: calc(100% - 90px); 
+} 
+
+.row:nth-child(4) select{ 
+	padding: 9px; 
+	width: 50px; 
+	margin-left: 5px; 
+	border-radius: 0.25em; 
+	outline: none; 
+	border: 1px solid #ced4da; 
+} 
+
+.row:nth-child(5) input{ 
+	width: calc(100% - 90px); 
+} 
+
+.row:nth-child(5) select{ 
+	padding: 9px; 
+	width: 50px; 
+	margin-left: 5px; 
+	border-radius: 0.25em; 
+	outline: none; 
+	border: 1px solid #ced4da; 
+} 
+
+.row:nth-child(6) div{ 
+	width: calc(100% - 5px); 
+} 
+
+.row:nth-child(6) p{ 
+	width: 6%; 
+	text-align: center; 
+} 
+
+.row:nth-child(6) input{ 
+	width: 17%; 
+} 
+
+.row:nth-child(6) input:first-child{ 
+	width: 60%; 
+	margin-right: 5px; 
+	margin-left: 5px; 
+}
