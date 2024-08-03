@@ -103,7 +103,7 @@ export default function Numberformat() {
 
 	return ( 
 		<div className='application'> 
-			<h1>Number Format Converter</h1> 
+			<h1>Number Format Converter - By Nidhi Upman</h1> 
 			<div className="section"> 
 				<div className="row"> 
 					<p>From</p> 
